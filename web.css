@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* =============================================================================
+   BASIC
+   ========================================================================== */
+html, body { margin:0px; padding:0px; height:100%; }
+body, input { font-family:"Hiragino Kaku Gothic Pro","微軟正黑體","Microsoft Jhenghei",Helvetica,Arial,sans-serif; font-size:90%; line-height: 140%; }
+th, td {margin:0; padding:0; }
+p{ font-family:"Hiragino Kaku Gothic Pro","微軟正黑體","Microsoft Jhenghei",Helvetica,Arial,sans-serif; line-height:140%; margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6{ font-weight:400;}
+h1{ font-size:40px; font-family:"Hiragino Kaku Gothic Pro","微軟正黑體","Microsoft Jhenghei",Helvetica,Arial,sans-serif; }
+h2{ font-size:26px; font-family:"Hiragino Kaku Gothic Pro","微軟正黑體","Microsoft Jhenghei",Helvetica,Arial,sans-serif; border-bottom:3px #CCC solid; padding-bottom:20px; text-align:center; color:#000; font-weight:bolder;}
+h3{ font-size:18px; font-family:"Hiragino Kaku Gothic Pro","微軟正黑體","Microsoft Jhenghei",Helvetica,Arial,sans-serif; line-height: 120%; font-weight:bold; color:#52a9b4; margin-top:40px; }
+h4{ font-size:16px; font-family:"Hiragino Kaku Gothic Pro","微軟正黑體","Microsoft Jhenghei",Helvetica,Arial,sans-serif; font-weight:bolder; line-height:0;}
+h5{ font-family:"Hiragino Kaku Gothic Pro","微軟正黑體","Microsoft Jhenghei",Helvetica,Arial,sans-serif; }
+h6{ font-family:"Hiragino Kaku Gothic Pro","微軟正黑體","Microsoft Jhenghei",Helvetica,Arial,sans-serif; }
+body {	
+	background:url(images/bg.gif);
+}
+a:visited {
+	font-size: 100%;
+	color:#00F;
+	text-decoration:underline;
+}
+a:link {
+	font-size: 100%;
+	color:#00F;
+	text-decoration:underline;
+}
+a:hover {
+	font-size: 100%;
+	color:#F00;
+	text-decoration:none;
+}
+/*----------------- Font --------------------*/
+.word-ps {
+	font-size:85%;
+	color:#e62310;
+}
+.word-ps-2 {
+	font-size:85%;
+	color:#000;
+}
+.word-star {
+	font-size:120%;
+	color:#F00;
+	font-weight:bolder;
+	margin-bottom:10px;
+}
+/*----------------- 最外層包裝 --------------------*/
+#wrapper {
+	width: 1000px;
+	position:relative;
+	text-align:left;
+}
+#bg{
+	width:100%;
+	float:left;
+	background:#bbedf4;
+}
+/*----------------- banner --------------------*/
+#banner{
+	width:100%;
+	float:left;
+}
+/*----------------- content --------------------*/
+#content{
+	width:85%;
+	float:left;
+	margin-left:5%;
+	margin-bottom:20px;
+	margin-top:15px;
+	border:3px #CCC solid;
+	border-radius:15px;
+	padding:15px 15px 15px 15px;
+	background:#FFF;
+}
+#content table {
+	width:100%;
+	padding:0;
+	margin:0;
+	text-align:left;
+	font-size:85%;
+	border-right:1px #74c8d3 solid;
+	border-radius:15px;
+}
+#content th {
+	padding:5px 5px 5px 5px;
+	border-bottom:1px #74c8d3 solid;
+	border-left:1px #74c8d3 solid;
+}
+#content td {
+	padding:5px 5px 5px 5px;
+	border-bottom:1px #74c8d3 solid;
+	border-left:1px #74c8d3 solid;
+}
+#content ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+#content li {
+	width:90%;
+	list-style-type:none;
+	background:url(images/icon-01.png);
+	background-position:left top;
+	background-repeat:no-repeat;
+	display:block;
+	padding-bottom:8px;
+	padding-left:12px;
+	clear:both;
+	float:left;
+}
+/*----------------------- gotop ------------------------*/
+#gotop {
+	width:40px;
+	height:40px;
+	position: fixed;
+	right:6%;
+	bottom:50px;
+	font-size:12px;
+	z-index:99;
+}
+#gotop ul {
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+#gotop ul li a {
+	padding:22px 9px 6px 9px;
+	color:#FFF;
+	background-color:#ff0000;
+	background-image:url(images/gotop.png);
+	background-repeat:no-repeat;
+	background-position:center 4px;
+    border-radius:20px;
+	text-decoration:none;
+}
